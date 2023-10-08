@@ -1,0 +1,372 @@
+2023-06-13 12:20:33,139 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 12:20:33,144 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 12:20:37,281 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 12:20:38,030 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 5.285 seconds (JVM running for 6.333)
+2023-06-13 12:47:24,477 WARN org.apache.juli.logging.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-06-13 12:47:24,614 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 12:47:24,614 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 12:47:25,537 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 12:47:25,897 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.33 seconds (JVM running for 1614.2)
+2023-06-13 12:47:57,292 WARN org.apache.juli.logging.DirectJDKLog [Thread-7] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-06-13 12:47:57,387 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 12:47:57,388 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 12:47:58,113 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 12:47:58,459 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.11 seconds (JVM running for 1646.762)
+2023-06-13 12:48:25,037 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-10] Failed login attempt with username owner
+2023-06-13 12:48:25,042 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2023-06-13 12:48:41,654 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-1] Authentication token generated for owner
+2023-06-13 12:49:37,377 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  Begin Execute - Get list of employee accounts  ####################
+2023-06-13 12:49:37,425 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  End Execute - Get list of employee accounts  ####################
+2023-06-13 12:49:48,196 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  Begin Execute - Get list of employee accounts  ####################
+2023-06-13 12:49:48,231 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  End Execute - Get list of employee accounts  ####################
+2023-06-13 12:50:14,234 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] ####################  Begin Execute - Get employee account by employee ID  ####################
+2023-06-13 12:50:14,251 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] ####################  End Execute - Get employee account by employee ID  ####################
+2023-06-13 12:50:28,165 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  Begin Execute - Get employee account by employee ID  ####################
+2023-06-13 12:50:28,169 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] No employee account found by ID : 56
+2023-06-13 12:50:28,170 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  End Execute - Get employee account by employee ID  ####################
+2023-06-13 12:50:28,172 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [java.util.NoSuchElementException: No employee found with ID]
+2023-06-13 12:51:50,108 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:51:50,108 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate request  *****
+2023-06-13 12:51:50,108 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Result - Validation Succesful
+2023-06-13 12:51:50,109 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate request  *****
+2023-06-13 12:51:50,109 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 12:51:50,127 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Result - Validation Succesful
+2023-06-13 12:51:50,128 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate unique emailID  *****
+2023-06-13 12:51:50,217 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:51:50,222 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Role not found by role ID
+2023-06-13 12:51:50,224 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:51:50,224 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:51:50,225 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [java.util.NoSuchElementException: Role not found]
+2023-06-13 12:52:21,285 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:52:21,287 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Validate request  *****
+2023-06-13 12:52:21,287 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Result - Validation Succesful
+2023-06-13 12:52:21,288 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Validate request  *****
+2023-06-13 12:52:21,288 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 12:52:21,291 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Result - Validation Succesful
+2023-06-13 12:52:21,291 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Validate unique emailID  *****
+2023-06-13 12:52:21,371 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:52:21,372 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:52:21,400 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Employee account with employee ID 12 created by owner
+2023-06-13 12:52:21,401 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:54:05,708 WARN org.apache.juli.logging.DirectJDKLog [Thread-11] The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-06-13 12:54:05,814 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 12:54:05,814 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 12:54:06,518 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 12:54:06,859 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.08 seconds (JVM running for 2015.161)
+2023-06-13 12:54:39,987 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-5] Authentication token generated for owner
+2023-06-13 12:55:29,664 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:55:29,665 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  Begin Execute - Validate request  *****
+2023-06-13 12:55:29,665 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Result - Validation Succesful
+2023-06-13 12:55:29,665 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  End Execute - Validate request  *****
+2023-06-13 12:55:29,666 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 12:55:29,670 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Account with same email ID already exists : string
+2023-06-13 12:55:29,671 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  End Execute - Validate unique emailID  *****
+2023-06-13 12:55:29,671 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:55:29,673 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [java.lang.IllegalArgumentException: Account exists with same Email ID.]
+2023-06-13 12:56:27,196 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:56:27,197 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Validate request  *****
+2023-06-13 12:56:27,197 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Result - Validation Succesful
+2023-06-13 12:56:27,197 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Validate request  *****
+2023-06-13 12:56:27,197 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 12:56:27,199 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Result - Validation Succesful
+2023-06-13 12:56:27,200 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Validate unique emailID  *****
+2023-06-13 12:56:27,279 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:56:27,284 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Basic role assigned to employee account
+2023-06-13 12:56:27,285 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:56:27,295 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Employee account with employee ID 13 created by owner
+2023-06-13 12:56:27,295 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:58:14,756 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:58:14,756 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Validate request  *****
+2023-06-13 12:58:14,758 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Result - Validation Succesful
+2023-06-13 12:58:14,758 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Validate request  *****
+2023-06-13 12:58:14,758 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 12:58:14,759 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Result - Validation Succesful
+2023-06-13 12:58:14,760 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Validate unique emailID  *****
+2023-06-13 12:58:14,850 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:58:14,853 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Basic role assigned to employee account
+2023-06-13 12:58:14,854 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 12:58:14,874 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Employee account with employee ID 14 created by owner
+2023-06-13 12:58:14,874 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:58:25,546 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 12:58:25,547 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] *****  Begin Execute - Validate request  *****
+2023-06-13 12:58:25,548 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] Required fields missing from request
+2023-06-13 12:58:25,548 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] *****  End Execute - Validate request  *****
+2023-06-13 12:58:25,548 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-9] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 12:58:25,550 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [java.lang.IllegalArgumentException: Required fields missing]
+2023-06-13 13:00:38,970 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:00:38,971 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  Begin Execute - Validate request  *****
+2023-06-13 13:00:38,976 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Result - Validation Succesful
+2023-06-13 13:00:38,977 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  End Execute - Validate request  *****
+2023-06-13 13:00:38,978 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:00:38,980 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Account with same email ID already exists : string
+2023-06-13 13:00:38,980 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:00:38,980 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:00:38,982 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [java.lang.IllegalArgumentException: Account exists with same Email ID.]
+2023-06-13 13:00:47,913 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:00:47,913 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate request  *****
+2023-06-13 13:00:47,919 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Result - Validation Succesful
+2023-06-13 13:00:47,920 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate request  *****
+2023-06-13 13:00:47,920 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:00:47,923 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Account with same email ID already exists : string21
+2023-06-13 13:00:47,924 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:00:47,924 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:00:47,925 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [java.lang.IllegalArgumentException: Account exists with same Email ID.]
+2023-06-13 13:01:15,444 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:01:15,445 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Validate request  *****
+2023-06-13 13:01:15,450 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Result - Validation Succesful
+2023-06-13 13:01:15,450 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Validate request  *****
+2023-06-13 13:01:15,450 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:01:15,450 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Result - Validation Succesful
+2023-06-13 13:01:15,451 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:01:15,542 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:01:15,542 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:01:15,556 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] Employee account with ID 13 modified by owner
+2023-06-13 13:01:15,557 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-4] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:01:29,378 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:01:29,379 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  Begin Execute - Validate request  *****
+2023-06-13 13:01:29,390 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] Result - Validation Succesful
+2023-06-13 13:01:29,391 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  End Execute - Validate request  *****
+2023-06-13 13:01:29,391 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:01:29,391 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] Result - Validation Succesful
+2023-06-13 13:01:29,391 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:01:29,480 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:01:29,486 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] Role not found by role ID
+2023-06-13 13:01:29,487 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:01:29,487 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-5] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:01:29,490 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [java.util.NoSuchElementException: Role not found]
+2023-06-13 13:02:12,675 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:02:12,677 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  Begin Execute - Validate request  *****
+2023-06-13 13:02:12,683 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Result - Validation Succesful
+2023-06-13 13:02:12,685 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  End Execute - Validate request  *****
+2023-06-13 13:02:12,685 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:02:12,685 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Result - Validation Succesful
+2023-06-13 13:02:12,685 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:02:12,773 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:12,779 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Reader role assigned to employee account
+2023-06-13 13:02:12,780 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:12,804 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] Employee account with ID 13 modified by owner
+2023-06-13 13:02:12,805 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:02:19,195 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:02:19,195 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Validate request  *****
+2023-06-13 13:02:19,201 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Result - Validation Succesful
+2023-06-13 13:02:19,203 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Validate request  *****
+2023-06-13 13:02:19,203 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:02:19,208 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Account with same email ID already exists : string21
+2023-06-13 13:02:19,208 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:02:19,209 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:02:19,210 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [java.lang.IllegalArgumentException: Account exists with same Email ID.]
+2023-06-13 13:02:34,766 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:02:34,768 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Validate request  *****
+2023-06-13 13:02:34,780 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Result - Validation Succesful
+2023-06-13 13:02:34,780 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Validate request  *****
+2023-06-13 13:02:34,780 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:02:34,784 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Result - Validation Succesful
+2023-06-13 13:02:34,785 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:02:34,880 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:34,883 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Reader role assigned to employee account
+2023-06-13 13:02:34,883 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:34,896 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Employee account with ID 13 modified by owner
+2023-06-13 13:02:34,896 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:02:57,044 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:02:57,046 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Validate request  *****
+2023-06-13 13:02:57,053 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Result - Validation Succesful
+2023-06-13 13:02:57,054 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Validate request  *****
+2023-06-13 13:02:57,054 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:02:57,059 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Result - Validation Succesful
+2023-06-13 13:02:57,059 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:02:57,153 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:57,157 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Reader role assigned to employee account
+2023-06-13 13:02:57,157 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:02:57,181 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] Employee account with ID 13 modified by owner
+2023-06-13 13:02:57,181 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:03:22,984 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-9] Failed login attempt with username string2
+2023-06-13 13:03:22,987 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User account is disabled.]
+2023-06-13 13:03:45,676 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-1] Failed login attempt with username string2
+2023-06-13 13:03:45,678 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User account is disabled.]
+2023-06-13 13:03:49,171 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-2] Failed login attempt with username string2
+2023-06-13 13:03:49,172 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User account is disabled.]
+2023-06-13 13:04:06,066 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 13:04:06,066 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate request  *****
+2023-06-13 13:04:06,076 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Result - Validation Succesful
+2023-06-13 13:04:06,076 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate request  *****
+2023-06-13 13:04:06,077 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 13:04:06,077 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Result - Validation Succesful
+2023-06-13 13:04:06,077 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Validate unique emailID  *****
+2023-06-13 13:04:06,167 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:04:06,172 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Reader role assigned to employee account
+2023-06-13 13:04:06,172 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 13:04:06,195 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] Employee account with ID 13 modified by owner
+2023-06-13 13:04:06,195 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-3] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 13:04:13,273 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-4] Authentication token generated for string2
+2023-06-13 13:04:18,523 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-5] Failed login attempt with username string2
+2023-06-13 13:04:18,525 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2023-06-13 13:05:20,388 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  Begin Execute - Delete Employee Account  ####################
+2023-06-13 13:05:20,389 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  Begin Execute - Validate request  *****
+2023-06-13 13:05:20,392 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Result - Validation Succesful
+2023-06-13 13:05:20,393 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] *****  End Execute - Validate request  *****
+2023-06-13 13:05:20,406 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] Employee account with employee ID 14 deleted by owner
+2023-06-13 13:05:20,407 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-7] ####################  End Execute - Delete Employee Account  ####################
+2023-06-13 13:05:36,123 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  Begin Execute - Delete Employee Account  ####################
+2023-06-13 13:05:36,123 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Validate request  *****
+2023-06-13 13:05:36,126 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Employee account not found with ID 141
+2023-06-13 13:05:36,127 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Validate request  *****
+2023-06-13 13:05:36,127 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  End Execute - Delete Employee Account  ####################
+2023-06-13 13:05:36,129 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [java.util.NoSuchElementException: Employee not found by id 141]
+2023-06-13 13:30:07,059 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  Begin Execute - Get list of roles  ####################
+2023-06-13 13:30:07,073 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  End Execute - Get list of roles  ####################
+2023-06-13 13:30:33,300 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-1] Failed login attempt with username basic
+2023-06-13 13:30:33,302 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2023-06-13 13:30:46,850 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-2] Authentication token generated for basic
+2023-06-13 13:34:22,602 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-5] Authentication token generated for owner
+2023-06-13 13:34:50,211 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  Begin Execute - Get list of roles  ####################
+2023-06-13 13:34:50,223 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  End Execute - Get list of roles  ####################
+2023-06-13 13:38:48,543 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-8] Authentication token generated for reader
+2023-06-13 13:39:48,487 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-10] ####################  Begin Execute - Get list of roles  ####################
+2023-06-13 13:39:48,498 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-10] ####################  End Execute - Get list of roles  ####################
+2023-06-13 13:39:55,556 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  Begin Execute - Get list of roles  ####################
+2023-06-13 13:39:55,578 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  End Execute - Get list of roles  ####################
+2023-06-13 13:40:12,371 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] ####################  Begin Execute - Create Role  ####################
+2023-06-13 13:40:12,371 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] *****  Begin Execute - Validate Request  *****
+2023-06-13 13:40:12,372 ERROR com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] Privilege Ids is empty
+2023-06-13 13:40:12,372 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] *****  End Execute - Validate Request  *****
+2023-06-13 13:40:12,372 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] ####################  End Execute - Create Role  ####################
+2023-06-13 13:40:12,373 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [java.lang.IllegalArgumentException: Privilege Ids cannot be empty]
+2023-06-13 13:41:30,760 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-3] Authentication token generated for reader
+2023-06-13 13:41:52,468 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] ####################  Begin Execute - Create Role  ####################
+2023-06-13 13:41:52,469 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] *****  Begin Execute - Validate Request  *****
+2023-06-13 13:41:52,470 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] Result - Validation Succesful
+2023-06-13 13:41:52,470 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] *****  End Execute - Validate Request  *****
+2023-06-13 13:41:52,470 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] *****  Begin Execute - Validate unique role Name  *****
+2023-06-13 13:41:52,475 ERROR com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] Role with same name already exists
+2023-06-13 13:41:52,475 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] *****  End Execute - Validate unique role Name  *****
+2023-06-13 13:41:52,475 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] ####################  End Execute - Create Role  ####################
+2023-06-13 13:41:52,477 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [java.lang.IllegalArgumentException: Role with same name already exists]
+2023-06-13 13:42:00,900 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] ####################  Begin Execute - Create Role  ####################
+2023-06-13 13:42:00,901 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  Begin Execute - Validate Request  *****
+2023-06-13 13:42:00,901 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] Result - Validation Succesful
+2023-06-13 13:42:00,901 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  End Execute - Validate Request  *****
+2023-06-13 13:42:00,901 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  Begin Execute - Validate unique role Name  *****
+2023-06-13 13:42:00,903 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] Result - Validation Succesful
+2023-06-13 13:42:00,904 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  End Execute - Validate unique role Name  *****
+2023-06-13 13:42:00,904 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  Begin Execute - Assign privileges to role  *****
+2023-06-13 13:42:00,911 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] Privilege with ID 1 assigned to role
+2023-06-13 13:42:00,911 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] *****  End Execute - Assign privileges to role  *****
+2023-06-13 13:42:00,933 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] Role string4 created by reader
+2023-06-13 13:42:00,934 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] ####################  End Execute - Create Role  ####################
+2023-06-13 13:42:22,700 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 13:42:22,705 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 13:43:34,052 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  Begin Execute - Get employee account by employee ID  ####################
+2023-06-13 13:43:34,061 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  End Execute - Get employee account by employee ID  ####################
+2023-06-13 14:10:47,162 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-1] Authentication token generated for owner
+2023-06-13 14:13:05,843 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-3] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:05,847 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-3] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:10,044 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:10,047 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-4] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:14,319 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:14,323 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-5] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:19,787 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:19,791 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-6] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:29,837 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-7] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:29,841 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-7] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:37,522 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-8] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:37,525 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-8] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:44,093 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-10] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:44,098 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-10] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:59,067 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:13:59,071 ERROR com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] No role found by ID : 6
+2023-06-13 14:13:59,072 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:13:59,073 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [java.util.NoSuchElementException: No role found with ID]
+2023-06-13 14:14:02,797 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:14:02,799 ERROR com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] No role found by ID : 7
+2023-06-13 14:14:02,800 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-1] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:14:02,800 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [java.util.NoSuchElementException: No role found with ID]
+2023-06-13 14:14:06,370 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-2] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:14:06,376 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-2] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:17:03,009 WARN org.apache.juli.logging.DirectJDKLog [Thread-15] The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-06-13 14:17:03,148 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 14:17:03,148 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 14:17:04,182 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 14:17:04,656 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.565 seconds (JVM running for 6992.959)
+2023-06-13 14:20:33,110 WARN org.apache.juli.logging.DirectJDKLog [Thread-19] The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2023-06-13 14:20:33,229 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 14.0.2 on LTIN400293 with PID 58532 (C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement\target\classes started by 2144388 in C:\Users\2144388\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\employeemanagement)
+2023-06-13 14:20:33,230 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-13 14:20:33,990 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 14:20:34,454 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.262 seconds (JVM running for 7202.757)
+2023-06-13 14:21:19,122 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-5] Authentication token generated for owner
+2023-06-13 14:21:50,734 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  Begin Execute - Get list of employee accounts  ####################
+2023-06-13 14:21:50,771 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-6] ####################  End Execute - Get list of employee accounts  ####################
+2023-06-13 14:22:47,939 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-7] Authentication token generated for reader
+2023-06-13 14:23:21,229 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  Begin Execute - Create Employee Account  ####################
+2023-06-13 14:23:21,230 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Validate request  *****
+2023-06-13 14:23:21,230 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Result - Validation Succesful
+2023-06-13 14:23:21,230 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Validate request  *****
+2023-06-13 14:23:21,230 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 14:23:21,234 ERROR com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] Account with same email ID already exists : string
+2023-06-13 14:23:21,234 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] *****  End Execute - Validate unique emailID  *****
+2023-06-13 14:23:21,235 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-8] ####################  End Execute - Create Employee Account  ####################
+2023-06-13 14:23:21,237 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [java.lang.IllegalArgumentException: Account exists with same Email ID.]
+2023-06-13 14:23:39,333 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  Begin Execute - Get role by role ID  ####################
+2023-06-13 14:23:39,337 INFO com.employeemanagement.demo.service.RoleService [http-nio-8080-exec-9] ####################  End Execute - Get role by role ID  ####################
+2023-06-13 14:23:58,994 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  Begin Execute - Get employee account by employee ID  ####################
+2023-06-13 14:23:59,000 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-10] ####################  End Execute - Get employee account by employee ID  ####################
+2023-06-13 14:24:28,733 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-1] Authentication token generated for owner
+2023-06-13 14:25:04,438 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] ####################  Begin Execute - Update Employee Account  ####################
+2023-06-13 14:25:04,438 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  Begin Execute - Validate request  *****
+2023-06-13 14:25:04,442 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Result - Validation Succesful
+2023-06-13 14:25:04,442 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  End Execute - Validate request  *****
+2023-06-13 14:25:04,442 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  Begin Execute - Validate unique emailID  *****
+2023-06-13 14:25:04,443 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Result - Validation Succesful
+2023-06-13 14:25:04,443 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  End Execute - Validate unique emailID  *****
+2023-06-13 14:25:04,520 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  Begin Execute - Assign Roles to Employee Account  *****
+2023-06-13 14:25:04,523 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Reader role assigned to employee account
+2023-06-13 14:25:04,523 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] *****  End Execute - Assign Roles to Employee Account  *****
+2023-06-13 14:25:04,542 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] Employee account with ID 2 modified by owner
+2023-06-13 14:25:04,542 INFO com.employeemanagement.demo.service.EmployeeService [http-nio-8080-exec-2] ####################  End Execute - Update Employee Account  ####################
+2023-06-13 14:25:27,502 INFO com.employeemanagement.demo.service.LoginService [http-nio-8080-exec-3] Authentication token generated for reader
+2023-06-13 20:08:28,230 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-6 housekeeper] HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=15m50s338ms554µs600ns).
+2023-06-13 20:26:15,508 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-6 housekeeper] HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=9m17s76ms827µs).
